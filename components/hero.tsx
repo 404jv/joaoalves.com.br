@@ -25,11 +25,10 @@ const Hero = () => {
                 Desenvolvedor{' '}
                 <span className="text-primary">Freelancer</span>{' '}
                 especializado em{' '}
-                <span className="relative">
-                  soluções modernas
+                <span className="relative text-5xl">
+                  resolver problemas
                   <div className="absolute -bottom-2 left-0 w-full h-1 bg-primary/30 rounded-full"></div>
                 </span>{' '}
-                para web
               </h1>
               
               <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
