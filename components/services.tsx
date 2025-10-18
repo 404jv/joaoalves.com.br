@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, ShoppingCart, Smartphone, Cog, ArrowRight } from 'lucide-react';
+import { Globe, ShoppingCart, Cog, ArrowRight, Bot } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -8,7 +8,14 @@ const Services = () => {
       title: 'Desenvolvimento Web',
       description: 'Sites institucionais, landing pages e aplicações web personalizadas com foco em performance e SEO.',
       features: ['Design responsivo', 'Otimização SEO', 'Performance otimizada', 'Código limpo'],
-      price: 'A partir de R$ 2.500'
+      price: 'Desconto de 40% em relação ao mercado'
+    },
+    {
+      icon: Bot,
+      title: 'Bot de Atendimento',
+      description: 'Automatize seus atendimentos, venda mais e foque somente no que importa no seu negócio.',
+      features: ['Alta conversão', 'Atende vários clientes ao mesmo tempo', 'Integração com CRM', 'Atendimento humanizado'],
+      price: 'Desconto de 40% em relação ao mercado'
     },
     {
       icon: ShoppingCart,
@@ -16,13 +23,6 @@ const Services = () => {
       description: 'Lojas virtuais completas com sistema de pagamento, gestão de produtos e painel administrativo.',
       features: ['Integração com pagamentos', 'Gestão de estoque', 'Painel admin', 'Mobile-first'],
       price: 'A partir de R$ 5.000'
-    },
-    {
-      icon: Smartphone,
-      title: 'Landing Pages',
-      description: 'Páginas de conversão otimizadas para campanhas de marketing digital e captação de leads.',
-      features: ['Alta conversão', 'Carregamento rápido', 'Integração com CRM', 'A/B Testing'],
-      price: 'A partir de R$ 1.500'
     },
     {
       icon: Cog,
@@ -83,7 +83,7 @@ const Services = () => {
                 {/* Price and CTA */}
                 <div className="pt-4 border-t border-border space-y-4">
                   <div className="flex items-center justify-between">
-                    <span className="font-semibold text-primary text-lg">
+                    <span className="font-semibold text-primary text-sm">
                       {service.price}
                     </span>
                     <button className="text-primary hover:text-primary-hover font-medium text-sm inline-flex items-center transition-colors group">

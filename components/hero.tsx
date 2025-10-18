@@ -32,9 +32,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-                Transformo suas ideias em aplicações web modernas e funcionais. 
-                Especializado em React, Next.js e desenvolvimento full-stack com 
-                foco em performance e experiência do usuário.
+                Transformo suas ideias em aplicações web modernas, sistemas, aplicativos, automações ou qualquer que seja a tecnologia.
               </p>
             </div>
 

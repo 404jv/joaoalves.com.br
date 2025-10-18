@@ -9,67 +9,46 @@ const Portfolio = () => {
     { id: 'todos', label: 'Todos' },
     { id: 'web', label: 'Web Apps' },
     { id: 'landing', label: 'Landing Pages' },
-    { id: 'ecommerce', label: 'E-commerce' },
   ];
 
   const projects = [
     {
       id: 1,
-      title: 'TaskFlow Pro',
+      title: 'Viação Mourãoense',
       category: 'web',
-      description: 'Sistema de gestão de tarefas e projetos com interface moderna e recursos avançados.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
-      tags: ['React', 'Next.js', 'Tailwind CSS', 'PostgreSQL'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      id: 2,
-      title: 'EcoStore',
-      category: 'ecommerce',
-      description: 'E-commerce sustentável com sistema de pagamento integrado e painel administrativo.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
-      tags: ['Next.js', 'Stripe', 'Prisma', 'TypeScript'],
-      liveUrl: '#',
-      githubUrl: '#'
+      description: 'Site para consultar horários e trajetos de transporte público em Goioerê.',
+      image: '/prints/lunabus.png',
+      tags: ['React', 'Next.js', 'Tailwind CSS', 'PWA'],
+      liveUrl: 'https://lunabus.com.br',
+      githubUrl: 'https://lunabus.com.br'
     },
     {
       id: 3,
-      title: 'StartupLand',
+      title: 'GD Consultoria',
       category: 'landing',
-      description: 'Landing page de alta conversão para captação de leads de uma startup de tecnologia.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-      tags: ['React', 'Framer Motion', 'Tailwind CSS'],
-      liveUrl: '#',
-      githubUrl: '#'
+      description: 'Landing page de alta conversão para captação de leads de um personal trainer.',
+      image: '/prints/gdconsultoria.png',
+      tags: ['React', 'CSS', 'Google Analytics'],
+      liveUrl: 'https://gdteamconsultoria.com.br',
+      githubUrl: 'https://gdteamconsultoria.com.br'
     },
     {
       id: 4,
-      title: 'FinanceTracker',
+      title: 'inkPen',
       category: 'web',
-      description: 'Aplicação para controle financeiro pessoal com gráficos e relatórios detalhados.',
-      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop',
-      tags: ['React', 'Chart.js', 'Node.js', 'MongoDB'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      id: 5,
-      title: 'RestaurantePro',
-      category: 'ecommerce',
-      description: 'Sistema completo para restaurantes com cardápio digital e pedidos online.',
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop',
-      tags: ['Next.js', 'PayPal', 'Supabase', 'PWA'],
-      liveUrl: '#',
-      githubUrl: '#'
+      description: 'API de um SaaS para gestão escolar de forma completa.',
+      image: '/prints/inkpen.png',
+      tags: ['Nest.js', 'PostgreSQL', 'Node.js', 'Google Cloud', 'AWS'],
+      liveUrl: 'https://inkpen.com.br',
+      githubUrl: 'https://inkpen.com.br'
     },
     {
       id: 6,
-      title: 'TechEvent 2024',
-      category: 'landing',
-      description: 'Site promocional para evento de tecnologia com sistema de inscrições.',
-      image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=400&fit=crop',
-      tags: ['React', 'Tailwind CSS', 'EmailJS'],
+      title: 'RacketHub',
+      category: 'web',
+      description: 'Sistemas para gerenciar clubes de tênis e beach tênis com +700 usuários ativos.',
+      image: '/prints/rackethub.png',
+      tags: ['TypeScript', 'Hostinger', 'Twilio API'],
       liveUrl: '#',
       githubUrl: '#'
     }
@@ -179,7 +158,7 @@ const Portfolio = () => {
         {/* Load More Button */}
         <div className="text-center pt-12">
           <button className="btn-secondary group inline-flex items-center">
-            Ver mais projetos
+            Fale comigo
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </button>
         </div>

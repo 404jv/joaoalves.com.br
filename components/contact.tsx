@@ -122,7 +122,7 @@ const Contact = () => {
 
               <div className="pt-4 border-t border-border">
                 <p className="text-sm text-muted-foreground">
-                  Resposta em até 2 horas durante horário comercial
+                  Resposta em até 1 horas durante horário comercial
                 </p>
               </div>
             </div>
